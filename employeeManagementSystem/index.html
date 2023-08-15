@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="./index.css"/>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header_container">
+            <img class="logo" src="./images/logo.png" alt="Logo"/>
+            <button id="add_mployee">Add Employee</button>
+        </div>
+        <!-- body -->
+        <div class="body_container">
+            <!-- left body -->
+            <div class="left_body" id="employee_list" >
+                <!-- employee cards -->
+                
+            </div>
+            <!-- right body -->
+            <div class="right_body">
+                <div class="image-container">
+                    <img id="employee_image" src="./images/defaultEmployeeImage.avif" alt="Employee Image"/>
+                </div>
+                <div class="data_element"><h1>Name:  </h1> <pre id="employee_name">  Pankaj Khati</pre></div>
+                <div class="data_element"><h1>Designation:  </h1> <pre id="employee_designation">  Software Developer</pre></div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="modal" id="modal">
+            <form class="form">
+                <label for="name">Name</label><br/>
+                <input type="text" id="name"/><br/>
+                <label for="designation">Designation</label><br/>
+                <input type="text" id="designation"/><br/>
+                <label for="img_url">Image URL</label><br/>
+                <input type="text" id="img_url"/>
+                <button id="submit">submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

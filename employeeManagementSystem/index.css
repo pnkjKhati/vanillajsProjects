@@ -1,0 +1,103 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header_container {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    height: 5rem;
+}
+
+.body_container {
+    flex:1;
+    display: flex;
+}
+
+.left_body, .right_body {
+    /* border: 2px solid black; */
+}
+
+.left_body {
+    width: 40%;
+    padding: 1rem 1rem 0 1rem;
+    box-shadow: 1px 0px 5px rgba(0,0,0,0.3);
+}
+
+.right_body {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.employee_card {
+    border-radius: 1rem;
+    display: flex;
+    padding: 0 5px;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.employee_card img {
+    height: 5rem;
+}
+
+.image-container {
+    border: 1px solid black;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10rem;
+    overflow: hidden;
+    align-self: center;
+}
+
+.image-container img {
+    width: 20rem;
+    height: 20rem;
+}
+
+.data_element {
+    display: flex;
+    align-items: center;
+}
+
+.modal {
+    position: absolute;
+    height:100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    height: 40rem;
+    width: 40rem;
+    background-color: white;
+}
+
